@@ -1,0 +1,14 @@
+# Config options for the dart-dio generator
+
+#General
+inputSpec: https://proeye.azurewebsites.net/swagger/v1.0/swagger.json
+generatorName: dart-dio #or any other generator
+#validateSpec: false #only if there are problems with the current api spec
+templateDir: "_openapi-templates/dart-dio" #optional if you are using the custom templates here
+#specific to dart-dio
+pubName: proeye_api
+pubVersion: 2.0.0+3 #Change this every time you re-generate the api
+pubDescription: "ProEye Api Package"
+typeMappings: #IMPORTANT if you are using dart-dio
+  binary: MultipartFile
+  file: MultipartFile

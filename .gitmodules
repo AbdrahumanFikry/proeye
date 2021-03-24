@@ -1,0 +1,3 @@
+[submodule "api/_openapi-templates"]
+	path = api/_openapi-templates
+	url = git@github.com:Bdaya-Dev/Custom-Openapi-Templates.git
